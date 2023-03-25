@@ -1,0 +1,363 @@
++*In[ ]:*+
+[source, ipython3]
+----
+introduction to list datatypes:
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+defination: Alist is a collection of items declared in a particular order
+classifaction: it is classified as an mutuble datatypes   
+how to define /declare the list....?[]
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[3]:*+
+[source, ipython3]
+----
+students = ['praveen','niveditha','sadiya','john','heena','kumar'] #0,1,2,3,4,5
+print(students)
+----
+
+
++*Out[3]:*+
+----
+['praveen', 'niveditha', 'sadiya', 'john', 'heena', 'kumar']
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+type(students)
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+introduction to indexing:0,1,2,3,4........
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+req:i want to get the name of kritika on the output....?
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+print(student1)
+----
+
+
++*In[6]:*+
+[source, ipython3]
+----
+students = ['praveen','niveditha','sadiya','john','heena','kumar']
+print(students[1].title())
+----
+
+
++*Out[6]:*+
+----
+Niveditha
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+1.how to add new elements to the list
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+#req:i want to add kritika to above list ....?
+----
+
+
++*In[9]:*+
+[source, ipython3]
+----
+students.append('kritika')
+print(students)
+----
+
+
++*Out[9]:*+
+----
+['praveen', 'niveditha', 'sadiya', 'john', 'heena', 'kumar', 'kritika']
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+req:i want to add bubu to the above list...?
+----
+
+
++*In[12]:*+
+[source, ipython3]
+----
+students.append('bubu')
+print(students)
+----
+
+
++*Out[12]:*+
+----
+['praveen', 'niveditha', 'sadiya', 'john', 'heena', 'kumar', 'kritika', 'bubu']
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+req: i wnat to add ayesha to 2nd index position...?
+----
+
+
++*In[13]:*+
+[source, ipython3]
+----
+students.insert(2,'ayesha')
+print(students)
+----
+
+
++*Out[13]:*+
+----
+['praveen', 'niveditha', 'ayesha', 'sadiya', 'john', 'heena', 'kumar', 'kritika', 'bubu']
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+2.how to modify the element in the list 
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+req:i wnat to modify praveen name to dev
+----
+
+
++*In[15]:*+
+[source, ipython3]
+----
+students[0]='dev'
+print(students)
+----
+
+
++*Out[15]:*+
+----
+['dev', 'niveditha', 'ayesha', 'sadiya', 'john', 'heena', 'kumar', 'kritika', 'bubu']
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+temporary deleting-pop
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+note- by default pop will be deleting the item from the last ,if needed 
+we can specify the index as well pop will be storing the deleted item in the variable that has been assigned to it. 
+----
+
+
++*In[16]:*+
+[source, ipython3]
+----
+x= students.pop()
+print(students)
+print(x)
+----
+
+
++*Out[16]:*+
+----
+['dev', 'niveditha', 'ayesha', 'sadiya', 'john', 'heena', 'kumar', 'kritika']
+bubu
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+#req :to delete john 
+----
+
+
++*In[17]:*+
+[source, ipython3]
+----
+y=students.pop(4)
+print(students)
+print(y)
+
+----
+
+
++*Out[17]:*+
+----
+['dev', 'niveditha', 'ayesha', 'sadiya', 'heena', 'kumar', 'kritika']
+john
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+#req :i want to delete visesha
+----
+
+
++*In[19]:*+
+[source, ipython3]
+----
+ del students[0]
+print(students)
+----
+
+
++*Out[19]:*+
+----
+['niveditha', 'ayesha', 'sadiya', 'heena', 'kumar', 'kritika']
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
