@@ -1,0 +1,412 @@
++*In[ ]:*+
+[source, ipython3]
+----
+Introduction to python programming:
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+understanding the variable in python:
+----
+
+
++*In[1]:*+
+[source, ipython3]
+----
+x=3
+y=2
+z=x+y
+print(z)
+----
+
+
++*Out[1]:*+
+----
+5
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+Rules for declaring the variables:
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+Rule no 1: no name spaces while declaring the variable names 
+----
+
+
++*In[2]:*+
+[source, ipython3]
+----
+fristname = 'kritika'
+print(fristname)
+----
+
+
++*Out[2]:*+
+----
+kritika
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+Rule no 2: A variables should not start with a number **
+----
+
+
++*In[3]:*+
+[source, ipython3]
+----
+name1 = 'kritika'
+print(name1)
+----
+
+
++*Out[3]:*+
+----
+kritika
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+Rule no 3:A variable name  should not catain any special characteers 
+    @ $ % & *
+----
+
+
++*In[4]:*+
+[source, ipython3]
+----
+name='sweetu'
+print(name)
+----
+
+
++*Out[4]:*+
+----
+sweetu
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+Introduction to  datatypes in python:
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+strings-----> str
+numbers------->integers---->int and decimals----->floats(0.1,0.2)
+lists--------->list
+tuples-------->tuple
+dictionaries---->dict 
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+classifcation of datatypes
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+mutuable datatpes- which we can edit and alters a # flexible in nature
+immutable datatypes- which we can be able to edit and alter #fixed in nature
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+Introduction to string datatypes:
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+defination -A string is a series of characters declared in quotes 
+
+claasification- it is classified as an immutable datatypes 
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+how we  create a string?
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+# single quote or double quote
+----
+
+
++*In[6]:*+
+[source, ipython3]
+----
+name='bubu' # single quote
+print(name)
+----
+
+
++*Out[6]:*+
+----
+bubu
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[7]:*+
+[source, ipython3]
+----
+name="kritika" #double quote
+print(name)
+----
+
+
++*Out[7]:*+
+----
+kritika
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+Introduction  to string method:
+----
+
+
++*In[8]:*+
+[source, ipython3]
+----
+type(name)
+----
+
+
++*Out[8]:*+
+----str----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[9]:*+
+[source, ipython3]
+----
+type(name1)
+----
+
+
++*Out[9]:*+
+----str----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[10]:*+
+[source, ipython3]
+----
+fullname="kritika subedi"
+print(fullname)
+----
+
+
++*Out[10]:*+
+----
+kritika subedi
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[12]:*+
+[source, ipython3]
+----
+print(fullname.title())
+----
+
+
++*Out[12]:*+
+----
+Kritika Subedi
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+req- i want the fullname in captial letter
+
++*In[13]:*+
+[source, ipython3]
+----
+print(fullname.upper())
+----
+
+
++*Out[13]:*+
+----
+KRITIKA SUBEDI
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+req:i want fullname in smallcase letter
+----
+
+
++*In[15]:*+
+[source, ipython3]
+----
+print(fullname.lower())
+----
+
+
++*Out[15]:*+
+----
+kritika subedi
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+commenting the code:
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+# ----- is used for commenting the code
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
