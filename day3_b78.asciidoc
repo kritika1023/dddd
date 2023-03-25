@@ -1,0 +1,315 @@
++*In[ ]:*+
+[source, ipython3]
+----
+contination with string data types:
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+introduction of f strings:
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+general syntax for f strings:
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+f"custom words{placeholder1}{placeholder2}.......{placeholdern}
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[5]:*+
+[source, ipython3]
+----
+fristname='david'
+lastname='john'
+fullname=f"{fristname} {lastname}"
+print(fullname)
+----
+
+
++*Out[5]:*+
+----
+david john
+----
+
+
++*In[7]:*+
+[source, ipython3]
+----
+print(fullname.title())
+----
+
+
++*Out[7]:*+
+----
+David John
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[8]:*+
+[source, ipython3]
+----
+message=f"keep up the good work,{fullname.title()}"
+print(message)
+----
+
+
++*Out[8]:*+
+----
+keep up the good work,David John
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+adding whitespace to strings:
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[11]:*+
+[source, ipython3]
+----
+ print("favourite_programming_language:\npython\ncss\nhtml\njava") #\n......> new line delimiter
+----
+
+
++*Out[11]:*+
+----
+favourite_programming_language:
+python
+css
+html
+java
+----
+
+
++*In[12]:*+
+[source, ipython3]
+----
+print("favourite_programming_language:\n\tpython\n\tcss\n\thtml\n\tjava") # tab delimiter
+----
+
+
++*Out[12]:*+
+----
+favourite_programming_language:
+	python
+	css
+	html
+	java
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+removing whitespaces from strings:
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[14]:*+
+[source, ipython3]
+----
+name='kritika'
+print(name)
+----
+
+
++*Out[14]:*+
+----
+kritika
+----
+
+
++*In[15]:*+
+[source, ipython3]
+----
+name2='  kritika'
+print(name2)
+----
+
+
++*Out[15]:*+
+----
+  kritika
+----
+
+
++*In[17]:*+
+[source, ipython3]
+----
+name3='kritika   '
+print(name3)
+----
+
+
++*Out[17]:*+
+----
+kritika   
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[18]:*+
+[source, ipython3]
+----
+name2.lstrip()#left strip
+----
+
+
++*Out[18]:*+
+----'kritika'----
+
+
++*In[19]:*+
+[source, ipython3]
+----
+name3.rstrip() #right strip
+----
+
+
++*Out[19]:*+
+----'kritika'----
+
+
++*In[20]:*+
+[source, ipython3]
+----
+name4="kritika"
+print(name4)
+name4.strip() #search and delete
+----
+
+
++*Out[20]:*+
+----
+kritika
+'kritika'----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
